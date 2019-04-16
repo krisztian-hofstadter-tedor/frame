@@ -1,28 +1,29 @@
 # Site settings
-title: "Website Title"
-description: "The desciption of the website"
+title: Jekyll Basics2
+email:
+description: "A boilerplate"
 keywords:
-- tedor
-
-# url
-url: # might not be needed;
-baseurl: "/frame" # https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+- Jekyll
 
 # URL
-url: "https://krisztian-hofstadter-tedor.github.io/frame/"
+url: "https://krisztian-hofstadter-tedor.github.io/frame"
 baseurl: ""
 
 # Build settings
-permalink: /:title/
-## exclude
-exclude:
-- README.md
+exclude: ['README.md', 'Makefile']
 
-# Front Matter Defaults
-# these will be used for everything (posts, pages, ... ) unless overwritten in front matter
+# Collections
+permalink: /:title/
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
+      class: post
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+      class: post
