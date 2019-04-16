@@ -23,7 +23,7 @@ todo
 
 First of all, why do we compose music? If we compose music because something inspired us, what is the difference between the inspiration being another piece of music, a painting or literature for instance poetry?
 
-![](/../assets/images/tedor-krisztian-hofstadter-imagination.jpg)
+![](/../assets/img/tedor-krisztian-hofstadter-imagination.jpg)
 
 Let's start with an exercise:
 

@@ -6,7 +6,11 @@ keywords:
 
 # url
 url: # might not be needed;
-baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+baseurl: "/frame" # https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
+
+# URL
+url: "https://krisztian-hofstadter-tedor.github.io/frame/"
+baseurl: ""
 
 # Build settings
 permalink: /:title/

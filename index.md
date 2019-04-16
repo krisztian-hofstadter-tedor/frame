@@ -4,7 +4,7 @@ layout: default
 ---
 Hello, this is a framework for a jekyll website by [k](https://khofstadter.info/assets/doc/K-Hofstader-CV-general-2019.pdf).
 
-![](../assets/images/2019-03-03-multilingual-website-workshop-02.jpg)
+![](/assets/img/2019-03-03-multilingual-website-workshop-02.jpg)
 
 <h2>Blog posts:</h2>
 
