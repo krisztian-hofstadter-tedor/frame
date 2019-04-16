@@ -1,0 +1,38 @@
+# Site settings
+title: StoryLab Research
+email: kris@wkhofstadter.info
+description: "Test Site"
+keywords:
+- add;
+
+# URL
+url: "" # to add;
+baseurl: "" # when is this needed
+
+# Sitemap (see sitemap.xml)
+sitemap:
+  changefreq: weekly
+
+# Build settings
+exclude: ['README.md']
+
+# Collections
+# do I need class?
+permalink: /:title/
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      class: post
+  - scope:
+      path: ""
+      type: drafts
+    values:
+      layout: post
+      class: post
+
+# Plugins
+plugins:
+- jekyll-sitemap
