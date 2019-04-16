@@ -4,8 +4,8 @@ description: "This is a frame for a Jekyll website"
 keywords:
 - tedor, tedör, krisztian hofstadter, creative technologist
 
-# url
-url: ""
+# URL
+url: "https://krisztian-hofstadter-tedor.github.io/frame/"
 baseurl: ""
 
 # Build settings
