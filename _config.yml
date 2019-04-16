@@ -5,8 +5,8 @@ keywords:
 - tedor, tedör, krisztian hofstadter, creative technologist
 
 # url
-url: "https://krisztian-hofstadter-tedor.github.io/frame" # to add;
-baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
+url: ""
+baseurl: ""
 
 # Build settings
 permalink: /:title/
