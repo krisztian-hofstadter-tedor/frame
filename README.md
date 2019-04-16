@@ -1,2 +1,0 @@
-# frame
-framework with jekyll 

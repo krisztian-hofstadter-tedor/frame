@@ -1,11 +1,21 @@
 ---
-title: Home
+title: tEdör aka Krisztián Hofstädter
 layout: default
 ---
-This course involves the study of source recording, sonic manipulation and sonic installations. Although the course contains technical components, its focus is strictly aesthetic. A range of techniques will be examined, together with an investigation of current manifestations of Sonic Art in the UK and around the world, including installation art and bioacoustics.
+Hello, this is a framework for a jekyll website by [k](https://khofstadter.info/assets/doc/K-Hofstader-CV-general-2019.pdf).
 
-Discussion and analysis of the potential links between sound, light, structure, ecology, location and image will lead to experiments and exercises in the aesthetic and technical creation of acousmatic spaces. Students will be expected to investigate their own performance/demonstration opportunities and compose/arrange/design their creations to take account of the site-specific performance/exhibition space.
+![](../assets/images/2019-03-03-multilingual-website-workshop-02.jpg)
 
-Students will provide their collected exercises in a portfolio including a critical evaluation placing the student’s work in the context of current trends in sonic art as well as providing a basis for the students own criteria and judgement.
+<h2>Blog posts:</h2>
 
-![shark](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Carcharhinus_obscurus_in_UShaka_Sea_World_1083.jpg/1200px-Carcharhinus_obscurus_in_UShaka_Sea_World_1083.jpg)
+  <ul>
+    {%- for post in site.posts -%}
+    <li>
+      <h3>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+    </li>
+    {%- endfor -%}
+  </ul>

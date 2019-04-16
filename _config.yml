@@ -1,12 +1,12 @@
 # Site settings
-title: "Page Title"
-description: "This is a frame for a Jekyll website"
+title: "Website Title"
+description: "The desciption of the website"
 keywords:
-- tedor, tedör, krisztian hofstadter, creative technologist
+- tedor
 
-# URL
-url: "https://krisztian-hofstadter-tedor.github.io/frame/"
-baseurl: ""
+# url
+url: # might not be needed;
+baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 
 # Build settings
 permalink: /:title/
@@ -15,6 +15,7 @@ exclude:
 - README.md
 
 # Front Matter Defaults
+# these will be used for everything (posts, pages, ... ) unless overwritten in front matter
 defaults:
   - scope:
       path: ""

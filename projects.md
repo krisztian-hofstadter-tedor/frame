@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: default
+categories: tofind
+tags: [music, mix]
 ---
-
-Here is some content for projects. 
+This is a project page with the default post layout.

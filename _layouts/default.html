@@ -2,23 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="{{ site.description }}">
   <title>{{ page.title }} - {{site.title}}</title>
-    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/style.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+  <h1><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title }}</a></h1>
 </head>
 <body>
-  <header>
-    <!-- <p>header content: </p> -->
-    {% include header.html %}
-  </header>
-  <main>
-    <!-- <p>main content: </p> -->
-      {{ content }}
-  </main>
-  <footer>
-    <!-- <p>footer content: </p> -->
-  </footer>
+    {{ content }}
 </body>
 </html>

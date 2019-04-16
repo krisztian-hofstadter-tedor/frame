@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-{{ page.date | date: "%b %-d, %Y"}}
-<div>tags: {{ page.tags | join: ", "  }}</div>
-
+<header>
+  <h2>{{ page.title }}</h2>
+  <div>tags: {{ page.tags | join: ", "  }}</div>
+</header>
 {{ content }}
+<br><br><br>
