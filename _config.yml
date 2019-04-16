@@ -1,38 +1,24 @@
 # Site settings
-title: StoryLab Research
-email: kris@wkhofstadter.info
-description: "Test Site"
+title: "Krisztián Hofstädter"
+description: "Archive of Krisztián Hofstädter aka tEdör"
 keywords:
-- add;
+- tedor, tedör, krisztian hofstadter, creative technologist
 
-# URL
-url: "" # to add;
-baseurl: "" # when is this needed
-
-# Sitemap (see sitemap.xml)
-sitemap:
-  changefreq: weekly
+# url
+url: # might not be needed;
+baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 
 # Build settings
-exclude: ['README.md']
-
-# Collections
-# do I need class?
 permalink: /:title/
+## exclude
+exclude:
+- README.md
+- CNAME
+
+# Front Matter Defaults
 defaults:
   - scope:
       path: ""
       type: posts
     values:
       layout: post
-      class: post
-  - scope:
-      path: ""
-      type: drafts
-    values:
-      layout: post
-      class: post
-
-# Plugins
-plugins:
-- jekyll-sitemap
