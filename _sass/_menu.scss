@@ -1,0 +1,80 @@
+// box sizing reset: https://w3bits.com/box-sizing-reset/
+
+/* Normalize the lists */
+.menu,
+.sub-menu {
+  margin: 0;
+  padding: 0;
+  li {
+    margin: 0;
+  }
+}
+
+/* Baseline for our menu */
+.navigation {
+  line-height: 0.5; /* 1 changed from 1 by khofstadter*/
+  .menu {
+    a,
+    li {
+      display: block; /* 2 */
+    }
+
+    a {
+      text-decoration: none; /* 3 */
+      color: currentColor; /* 4 */
+      padding: 1em; /* 5 */
+    }
+
+    li {
+      border-style: solid; /* 6 */
+      border-width: 0 0 1px;
+      float: center;
+    }
+  }
+}
+
+/* Screen breakpoints
+ *
+ * Some quick settings to make the menu respond appropriately
+ * to different screen sizes.
+ */
+@media only screen and (min-width: 600px) {
+  /* Baseline */
+  .navigation {
+    .menu {
+      display: flex; /* 1 */
+      > li {
+        border-width: 0 1px 0 0; /* 2 */
+        > a {
+          padding: 1.25em 1.5em; /* 3 */
+        }
+      }
+    }
+  }
+}
+
+/* Easy theming */
+
+$menu-color: rgba(white, .75);
+$menu-bg: #222;
+$menu-item-hover-color: rgba(white, .9);
+$menu-item-hover-bg: black;
+$menu-item-border-color: lighten($menu-bg, 3%);
+
+.navigation {
+  background-color: $menu-bg;
+  color: $menu-color;
+  .menu {
+    li {
+      border-color: $menu-item-border-color;
+      &:hover,
+      &:focus,
+      &:active {
+        > a {
+          color: $menu-item-hover-color;
+          background-color: $menu-item-hover-bg;
+        }
+      }
+    }
+  }
+}

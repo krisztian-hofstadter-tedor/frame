@@ -9,6 +9,9 @@ keywords:
 url: "https://krisztian-hofstadter-tedor.github.io/frame"
 baseurl: ""
 
+sass:
+  style: compact # possible values: nested expanded compact compressed
+  
 # Build settings
 exclude: ['README.md', 'Makefile']
 

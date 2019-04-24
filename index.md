@@ -4,4 +4,4 @@ title: Page title!
 description: "Description variable"
 ---
 
-Here some content. 
+Here some content.
