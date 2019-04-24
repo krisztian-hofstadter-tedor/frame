@@ -3,7 +3,8 @@
 - maybe with custom domain - the url will have to be changed;
 
 ## Todo
-- add nav menu;
+- make menu links work in GitHub; 
+- center and style menu;
 
 ## Todo later
 - is class needed in config.yml?
