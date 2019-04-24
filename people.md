@@ -1,4 +1,5 @@
 ---
+layout: page
 title: People
 description: 'People page description'
 ---

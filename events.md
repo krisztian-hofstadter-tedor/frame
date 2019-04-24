@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Events
 description: 'Events page description'
 ---
