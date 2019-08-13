@@ -12,7 +12,9 @@
 
 /* Baseline for our menu */
 .navigation {
-  line-height: 0.5; /* 1 changed from 1 by khofstadter*/
+  margin: 0;
+  line-height: 0.5; /* 1 */
+  vertical-align: middle;
   .menu {
     a,
     li {
@@ -54,8 +56,8 @@
 
 /* Easy theming */
 
-$menu-color: rgba(white, .75);
-$menu-bg: #222;
+$menu-color: rgba(black, .75);
+$menu-bg: white;
 $menu-item-hover-color: rgba(white, .9);
 $menu-item-hover-bg: black;
 $menu-item-border-color: lighten($menu-bg, 3%);
