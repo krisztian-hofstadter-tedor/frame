@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Page title!
-description: "Description variable"
+title: home
+subtitle: 'subtitle'
 ---
 
 Here some content.

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: People
-description: 'People page description'
+title: people
+subtitle: 'subtitle'
 ---
 
 Lorem ipsum dolor sit amet, augue neglegentur ex sed, ne odio diam labitur vel. Quo te oratio maiestatis. Ne eum nisl dolor. Vel saepe nusquam ea, an atqui tation mel.

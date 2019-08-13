@@ -5,8 +5,9 @@
 - add nav menu idea to frame;
 
 ## Todo
+- sort out logo:
 - have two menus: one for social, one for pages: look into block elements?
-- center and style menu;
+- menu to centre and style;
 - how to use a custom class or id for the logo li?
 
 ## Todo later

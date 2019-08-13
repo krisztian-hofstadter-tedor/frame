@@ -1,6 +1,6 @@
 ---
 title: Third post
-description: 'This is the third post of the "posts" collection.'
+subtitle: 'This is the third post of the "posts" collection.'
 ---
 
 Lorem ipsum dolor sit amet, augue neglegentur ex sed, ne odio diam labitur vel. Quo te oratio maiestatis. Ne eum nisl dolor. Vel saepe nusquam ea, an atqui tation mel.
