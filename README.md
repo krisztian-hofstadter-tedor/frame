@@ -1,21 +1,21 @@
 ## Note
-- use make serve on localhost;
+- use 'make serve' on localhost;
 - maybe with custom domain - the url will have to be changed;
-- refine permalinks (url and baseurl) knowledge;
-- add nav menu idea to frame;
 
 ## Todo
-- sort out logo:
-- have two menus: one for social, one for pages: look into block elements?
-- menu to centre and style;
-- how to use a custom class or id for the logo li?
+- shall we add svg as logo?
+- have logo, menu and content in one vertical line;
+- how to align text in nav boxes to left?
+- have all social elements and extra info in footer;
+- how to add index loop (with feature image)?
+- how to add categories, tags and searches?
 
 ## Todo later
+- learn more about permalinks (url and baseurl);
 - night mode (flip black & white?)
 - is class needed in config.yml?
-- how to add svg instead of png as logo?
-- how could I have pages in the pages folders
-- shall I add drafts?
+- how could I have pages in the pages folders (instead in the root?)
+- how to add drafts?
 - maybe we could keep contact in the footer (and the menu just send the anchor there instead of having a separate page? put then we don't have a message box in case needed - do people now have a emails?)
-- is the sass variebl needed in the config file?
+- is the sass variable needed in the config file?
 - refine breaking point: https://www.quora.com/What-is-breakpoint-in-responsive-web-design
