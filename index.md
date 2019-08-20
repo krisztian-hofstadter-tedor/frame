@@ -1,7 +1,7 @@
 ---
 layout: page
-title: home
-subtitle: 'subtitle'
+title: Home
+subtitle: 'Subtitle'
 ---
 
 Here some content.
