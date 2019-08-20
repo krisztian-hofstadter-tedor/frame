@@ -10,7 +10,6 @@ $menu-item-border-color: lighten($menu-bg, 30%);
 .navigation {
   background-color: $menu-bg;
   color: $menu-color;
-  padding-inline-start: 0;
   .menu {
     li {
       border-color: $menu-item-border-color;
@@ -73,7 +72,7 @@ $menu-item-border-color: lighten($menu-bg, 30%);
       > li {
         border-width: 0 1px 0 0; /* 2 */
         > a {
-          padding: 1.25em 1.25em 1.25em 0; /* 3 */
+          padding: 1.25em 1.25em; /* 3 */
         }
       }
     }
