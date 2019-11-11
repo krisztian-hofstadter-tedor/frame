@@ -3,9 +3,7 @@
 - maybe with custom domain - the url will have to be changed;
 
 ## Todo
-- shall we add svg as logo?
-- have logo, menu and content in one vertical line;
-- how to align text in nav boxes to left?
+- shall we add svg as logo or retina image?
 - have all social elements and extra info in footer;
 - how to add index loop (with feature image)?
 - how to add categories, tags and searches?
